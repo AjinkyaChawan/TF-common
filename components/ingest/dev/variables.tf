@@ -25,3 +25,10 @@ variable "failover_resource_group_location" {
   type        = string
   default     = "canadaeast" # Default value for the resource group location
 }
+
+# Define a variable for the storage account name
+variable "storage_acct_name" {
+  description = "Name of the storage account"
+  type        = string
+  default     = "my-storage-account" # Default value for the storage account name
+}
